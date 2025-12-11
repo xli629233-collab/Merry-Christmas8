@@ -1,8 +1,0 @@
-{
-  "name": "圣诞树终版1",
-  "description": "A 3D interactive Christmas tree made of photos and particles, controllable via hand gestures. Features video recording and album modes.",
-  "requestFramePermissions": [
-    "camera",
-    "microphone"
-  ]
-}
