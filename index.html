@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D 圣诞树 - 节日回忆</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Updated Fonts: Cinzel for headers, Pinyon Script for elegant handwriting -->
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Pinyon+Script&family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      body { margin: 0; background: #000; overflow: hidden; font-family: 'Ma Shan Zheng', cursive; }
+      /* High-end elegant script for English greeting */
+      .font-handwriting-en { font-family: 'Pinyon Script', 'Ma Shan Zheng', cursive; }
+      /* Chinese standard handwriting */
+      .font-handwriting-cn { font-family: 'Ma Shan Zheng', cursive; }
+      /* Classic high-end serif for titles */
+      .font-serif-card { font-family: 'Cinzel', serif; }
+      
+      /* Custom scrollbar for album view */
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.1/",
+    "react/": "https://esm.sh/react@^19.2.1/",
+    "react": "https://esm.sh/react@^19.2.1",
+    "three": "https://esm.sh/three@^0.182.0",
+    "@react-three/fiber": "https://esm.sh/@react-three/fiber@^9.4.2",
+    "@react-three/drei": "https://esm.sh/@react-three/drei@^10.7.7",
+    "@mediapipe/tasks-vision": "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.14/+esm",
+    "@react-three/postprocessing": "https://esm.sh/@react-three/postprocessing@^3.0.4",
+    "vite": "https://esm.sh/vite@^7.2.7",
+    "path": "https://esm.sh/path@^0.12.7",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2",
+    "url": "https://esm.sh/url@^0.11.4",
+    "three/": "https://esm.sh/three@^0.182.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
